@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>momentto</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+
+<!-- [D] 타이틀페이지 class="page-" -->
+<body class="page-mypage"><a href="#ct" class="skip sr-only sr-only-focusable" onclick="jQuery('#ct a:first').focus();return false;">Skip to Content</a>
+
+<!-- mobile menu -->
+<div id="snb" class="side-nav">
+	<section>
+		<nav id="mGnb">
+			<h3>ACCOUNT</h3>
+			<ul>
+				<li><a class="gnb-1" href="index.html">HOME</a></li>
+				<li><a class="gnb-2" href="05_my_2.html">MY PAGE</a></li>
+				<li><a class="gnb-3" href="04_cart_2.html">CART <b class="label">3</b></a></li>
+			</ul>
+			<h3>CATEGORY</h3>
+			<ul>
+				<li><a class="gnb-4" href="02_list.html">OPENING</a></li>
+				<li><a class="gnb-5" href="02_list_2.html">PROFILE</a></li>
+				<li><a class="gnb-6" href="02_list_3.html">END ROLL</a></li>
+				<li><a class="gnb-7" href="02_list_4.html">LETTER</a></li>
+				<li><a class="gnb-8" href="02_list_5.html">PROPOSE</a></li>
+			</ul>
+			<h3 class="mb0" ></h3>
+			<ul>
+				<li><a class="gnb-9" href="12_agreement_2.html">FAQ</a></li>
+				<li><a class="gnb-10" href="09_oneone_2.html">1:1</a></li>
+				<li><a class="gnb-11" href="14_event.html">EVENT</a></li>
+			</ul>
+		</nav>
+		<div class="snb-acc">
+			<div class="col-xs-6">
+				<a href="06_login.html">LOGIN</a>
+			</div>
+			<div class="col-xs-6">
+				<a href="07_join.html">SIGN UP</a>
+			</div>
+			<div class="col-xs-12">
+				<a class="bg-primary" href="15_making.html"><i class="icon-movie"></i> 作る方法を学ぶ</a>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- mobile menu -->
+
+<div id="wrap">
+	<!-- Header -->
+	<header id="hd" class="visible-md-block visible-lg-block">
+		<div class="hd-top">
+			<div class="container">
+				<a href="14_event.html">EVENT</a> <i class="split"></i>
+				<a href="15_making.html">作る方法を学ぶ</a> <i class="split"></i>
+				<div class="dropdown">
+					<a href="javascript:;" data-toggle="dropdown">MY PAGE</a> <i class="split"></i>
+					<div class="dropdown-menu my-drop">
+						<div class="user-info">
+							<div class="name">Hyoung Ju Kim</div>
+							<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+						</div>
+						<ul class="row my-link">
+							<li class="col-xs-6"><a href="04_cart_2.html">장바구니</a></li>
+							<li class="col-xs-6"><a href="05_my_4.html">쿠폰등록</a></li>
+							<li class="col-xs-6"><a href="05_my_6.html">취소 및 환불</a></li>
+							<li class="col-xs-6"><a href="05_my_2.html">회원정보 수정</a></li>
+							<li class="col-xs-6"><a href="">상품후기</a></li>
+							<li class="col-xs-6"><a href="">상품문의</a></li>
+							<li class="col-xs-6"><a href="09_oneone.html">일대일문의</a></li>
+							<li class="col-xs-6"><a href="">로그아웃</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="06_login.html">LOGIN</a> <i class="split"></i>
+				<a href="07_join.html">SIGN UP</a>
+				<div class="dropdown link-cart-wrp">
+					<a class="link-cart" href="javascript:;" data-toggle="dropdown"><span class="sr-only">Cart</span><b class="label">3</b></a>
+					<div class="dropdown-menu my-drop cart-drop">
+						<ul>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<p>* 최근 담은 순으로 5개까지 보여집니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header container">
+			<h1 class="logo"><a href="index.html"><span class="sr-only">momentto</span><img src="img/logo.png" alt=""> 驚くほど簡<span class="color-primary">単かつ迅速オ</span>ンラインムービーメーカー</a></h1>
+			<nav id="gnb">
+				<ul>
+					<li><a class="icon-gnb1" href="02_list.html">OPENING</a></li>
+					<li><a class="icon-gnb2" href="02_list_2.html">PROFILE</a></li>
+					<li><a class="icon-gnb3" href="02_list_3.html">END ROLL</a></li>
+					<li><a class="icon-gnb4" href="02_list_4.html">LETTER</a></li>
+					<li><a class="icon-gnb5" href="02_list_5.html">PROPOSE</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- 모바일 -->
+	<header id="mHd" class="visible-sm-block visible-xs-block">
+		<h1>my page</h1>
+		<a href="#snb" class="icon-mn" onclick="menuOpen('snb');return false;">메뉴열기/닫기</a>
+	</header>
+	<!-- //Header -->
+
+	<!-- Container -->
+	<div id="container">
+
+<!-- 페이지시작 -->
+<div class="container">
+	<ul class="breadcrumb">
+		<li><a href="">home</a></li>
+		<li><a href="">mypage</a></li>
+		<li><a href="">my movie</a></li>
+	</ul>
+	<div class="row mypage">
+		<div class="side">
+			<h2 class="sub-title t2">my page</h2>
+			<div class="user-info">
+				<div class="tmb"><img src="img/_temp/tmb.jpg" alt=""></div>
+				<div class="name">Hyoung Ju Kim</div>
+				<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+			</div>
+			<ul class="mnb">
+				<li class="active"><a href="">my movie</a></li>
+				<li><a href="">쿠폰조회/등록</a></li>
+				<li><a href="">나의 적립금</a></li>
+				<li><a href="">취소/환불</a></li>
+				<li>
+					<a href="">회원정보</a>
+					<ul class="dep2">
+						<li><a href="">개인정보 수정</a></li>
+						<li><a href="">회원 탈퇴</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="cont">
+			<h3 class="cont-title">my movie</h3>
+			<div class="my-link-wrp">
+				<ul class="my-link row">
+					<li class="col-sm-2 col-xs-4"><a href="">장바구니<span class="num">6</span></a></li>
+					<li class="col-sm-2 col-xs-4"><a href="">주문접수<span class="num">1</span></a></li>
+					<li class="col-sm-2 col-xs-4"><a href="">결제완료<span class="num">8</span></a></li>
+					<li class="col-sm-2 col-xs-4"><a href="">무비메이커 진행중<span class="num color-pink">38</span></a></li>
+					<li class="col-sm-2 col-xs-4"><a href="">무비완료<span class="num">112</span></a></li>
+					<li class="col-sm-2 col-xs-4"><a href="">취소/환불<span class="num">1</span></a></li>
+				</ul>
+				<div class="txt ellipsis"><a href=""><span class="label">공지사항</span>더데이즈 무비메이커 진행중인 무비가 38건 있습니다.</a></div>
+			</div>
+			<ul class="lst lst-card row">
+				<li class="col-sm-6 col-xs-12">
+					<!-- [D] 대기 class="wait" -->
+					<div class="card wait">
+						<div class="tmb">
+							<span><img class="img-responsive" src="img/_temp/tmb.png" alt=""></span>
+							<span class="icon-wait">대기</span>
+						</div>
+						<div class="card-info">
+							<div class="wrp clearfix">
+								<h4 class="ellipsis">Love Love Love</h4>
+								<dl class="dl-float">
+									<dt>주문일자</dt>
+									<dd>2016.04.12</dd>
+									<dt>주문번호</dt>
+									<dd>100085966254</dd>
+								</dl>
+								<a href="#detailOrder" class="color-sky" data-toggle="modal"><u>상세보기</u></a>
+								<span class="price">9,900円 <small>(1개)</small></span>
+							</div>
+							<div class="dsc">
+								<p>아래의 [무비메이커 시작하기] 버튼을 클릭하면 무비 제작이 시작됩니다. 시작과 동시에 무비의 취소/환불은 불가능합니다.</p>
+								<a href="" class="btn btn-sm btn-block bg-sky">무비메이커 시작하기</a>
+								<div class="btm-link">
+									<a href="" class="color-sky"><u>무비 Q&A 질문하기</u></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-6 col-xs-12">
+					<!-- [D] 진행중 class="ing" -->
+					<div class="card ing">
+						<div class="tmb">
+							<span><img class="img-responsive" src="img/_temp/tmb.png" alt=""></span>
+							<span class="icon-ing">진행중</span>
+						</div>
+						<div class="card-info">
+							<div class="wrp clearfix">
+								<h4 class="ellipsis">Love Love Love</h4>
+								<dl class="dl-float">
+									<dt>주문일자</dt>
+									<dd>2016.04.12</dd>
+									<dt>주문번호</dt>
+									<dd>100085966254</dd>
+								</dl>
+								<a href="#detailOrder" class="color-sky" data-toggle="modal"><u>상세보기</u></a>
+								<span class="price">9,900円 <small>(1개)</small></span>
+							</div>
+							<div class="dsc">
+								<p class="txt">무비의 <b>제작 요청이 완료</b> 되었습니다.</p>
+								<p>무비가 완성되면 고객님의 이메일과 문자메시지로 안내해 드리며, 완성된 무비는 감상 / 다운로드 하실 수 있습니다.</p>
+								<div class="btm-link">
+									<a href="" class="color-sky"><u>무비 Q&A 질문하기</u></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-6 col-xs-12">
+					<!-- [D] 완료 class="end" -->
+					<div class="card end">
+						<div class="tmb">
+							<span><img class="img-responsive" src="img/_temp/tmb.png" alt=""></span>
+							<span class="icon-end">완료</span>
+						</div>
+						<div class="card-info">
+							<div class="wrp clearfix">
+								<h4 class="ellipsis">Love Love Love</h4>
+								<dl class="dl-float">
+									<dt>주문일자</dt>
+									<dd>2016.04.12</dd>
+									<dt>주문번호</dt>
+									<dd>100085966254</dd>
+								</dl>
+								<a href="#detailOrder" class="color-sky" data-toggle="modal"><u>상세보기</u></a>
+								<span class="price">9,900円 <small>(1개)</small></span>
+							</div>
+							<div class="dsc">
+								<dl class="dl-float">
+									<dt>무비 보관 잔여 일수:</dt>
+									<dd>79일 <a href="" class="icon-info">정보</a></dd>
+									<dt>수정 잔여 일수:</dt>
+									<dd>0일</dd>
+								</dl>
+								<div class="row">
+									<div class="col-xs-6 pr5"><a href="" class="btn btn-sm btn-block bg-primary">무비 다운로드</a></div>
+									<div class="col-xs-6 pl5"><a href="" class="btn btn-sm btn-block btn-border-pink disabled">수정 불가능</a></div>
+								</div>
+								<div class="btm-link">
+									<a href="" class="color-sky"><u>무비 Q&A 질문하기</u></a>
+									<a href="" class="color-sky"><u>평점/리뷰 작성하기</u></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-6 col-xs-12">
+					<!-- [D] 완료 class="end" -->
+					<div class="card end">
+						<div class="tmb">
+							<span><img class="img-responsive" src="img/_temp/tmb.png" alt=""></span>
+							<span class="icon-end">완료</span>
+						</div>
+						<div class="card-info">
+							<div class="wrp clearfix">
+								<h4 class="ellipsis">Love Love Love</h4>
+								<dl class="dl-float">
+									<dt>주문일자</dt>
+									<dd>2016.04.12</dd>
+									<dt>주문번호</dt>
+									<dd>100085966254</dd>
+								</dl>
+								<a href="#detailOrder" class="color-sky" data-toggle="modal"><u>상세보기</u></a>
+								<span class="price">9,900円 <small>(1개)</small></span>
+							</div>
+							<div class="dsc">
+								<dl class="dl-float">
+									<dt>무비 보관 잔여 일수:</dt>
+									<dd>79일 <a href="" class="icon-info">정보</a></dd>
+									<dt>수정 잔여 일수:</dt>
+									<dd>0일</dd>
+								</dl>
+								<div class="row">
+									<div class="col-xs-6 pr5"><a href="" class="btn btn-sm btn-block bg-primary">무비 다운로드</a></div>
+									<div class="col-xs-6 pl5"><a href="" class="btn btn-sm btn-block btn-border-pink">수정 가능</a></div>
+								</div>
+								<div class="btm-link">
+									<a href="" class="color-sky"><u>무비 Q&A 질문하기</u></a>
+									<a href="" class="color-sky"><u>평점/리뷰 작성하기</u></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- //페이지끝 -->
+
+	</div><!-- //Container -->	<!-- Footer -->
+	<footer id="ft">
+		<div class="container row">
+			<div class="col-xs-12 col-sm-3">
+				<a href=""><img src="img/ft_logo.png" alt="bellsoft"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul class="row">
+					<li class="col-xs-4">
+						<h3>HELP</h3>
+						<ul>
+							<li><a href="11_cooperate.html">CONTACT US</a></li>
+							<li><a href="15_making.html">HOW IT WORKS</a></li>
+							<li><a href="12_agreement_2.html">FAQS</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>COMPANY</h3>
+						<ul>
+							<li><a href="13_introduce.html">ABOUT</a></li>
+							<li><a href="12_agreement.html">CONTACT US</a></li>
+							<li><a href="">OUR POLICIES</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>FOLLOW US</h3>
+						<a class="icon-ft-sns-kakao" href="" target="_blank">kakao</a>
+						<a class="icon-ft-sns-fb" href="" target="_blank">facebook</a>
+						<a class="icon-ft-sns-insta" href="" target="_blank">instagram</a>
+					</li>
+				</ul>
+				<address>Copyright &copy; momentto All right reserved.</address>
+			</div>
+		</div>
+		<a class="icon-top" href="#wrap" onClick="scrollMove('#wrap');return false;">TOP</a>
+	</footer>
+	<!-- //Footer -->
+
+	<!-- Qucik -->
+	<div id="quick" class="hidden-xs hidden-sm">
+		<a class="icon-quick" href="">FAQ</a>
+		<a class="icon-quick-1" href="09_oneone_2.html">1:1</a>
+	</div>
+	<!-- Qucik -->
+
+</div><!-- //Wrap -->
+
+<!-- modal -->
+<div id="detailOrder" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog detail-order">
+		<h1 class="title">주문상세정보</h1>
+		<dl class="dl-float dsc-order">
+			<dt>상품번호 (주문번호)</dt>
+			<dd>100008945618915262231815</dd>
+			<dt>상품명</dt>
+			<dd>Wedding Opening v.2</dd>
+			<dt>상품금액 (개수)</dt>
+			<dd><b class="color-pink">30,000</b> (1개)</dd>
+			<dt>할인금액</dt>
+			<dd>- 6,000</dd>
+			<dt>진행상태</dt>
+			<dd><b class="color-grn">완료</b></dd>
+			<dt>결제방법</dt>
+			<dd>적립금 구매</dd>
+			<dt>기타</dt>
+			<dd></dd>
+		</dl>
+		<p class="color-sky">주문일자 : 2017년 06월 11일</p>
+		<div class="total-price">
+			<dl class="dl-float dsc-price">
+				<dt>상품금액</dt>
+				<dd>24,000</dd>
+				<dt>적립금 사용</dt>
+				<dd>1,000</dd>
+				<dt>쿠폰 할인금액</dt>
+				<dd>-0</dd>
+				<dt class="total">최종 결제금액</dt>
+				<dd class="total">23,000</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<script>
+$('#detailOrder').modal();
+</script>
+
+<!-- js -->
+<!--[if lte IE 9]>
+<script src="js/placeholder.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+</body>
+</html>

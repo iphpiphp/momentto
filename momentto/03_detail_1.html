@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>momentto</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+	
+<body><a href="#ct" class="skip sr-only sr-only-focusable" onclick="jQuery('#ct a:first').focus();return false;">Skip to Content</a>
+
+<!-- mobile menu -->
+<div id="snb" class="side-nav">
+	<section>
+		<nav id="mGnb">
+			<h3>ACCOUNT</h3>
+			<ul>
+				<li><a class="gnb-1" href="index.html">HOME</a></li>
+				<li><a class="gnb-2" href="05_my_2.html">MY PAGE</a></li>
+				<li><a class="gnb-3" href="04_cart_2.html">CART <b class="label">3</b></a></li>
+			</ul>
+			<h3>CATEGORY</h3>
+			<ul>
+				<li><a class="gnb-4" href="02_list.html">OPENING</a></li>
+				<li><a class="gnb-5" href="02_list_2.html">PROFILE</a></li>
+				<li><a class="gnb-6" href="02_list_3.html">END ROLL</a></li>
+				<li><a class="gnb-7" href="02_list_4.html">LETTER</a></li>
+				<li><a class="gnb-8" href="02_list_5.html">PROPOSE</a></li>
+			</ul>
+			<h3 class="mb0" ></h3>
+			<ul>
+				<li><a class="gnb-9" href="12_agreement_2.html">FAQ</a></li>
+				<li><a class="gnb-10" href="09_oneone_2.html">1:1</a></li>
+				<li><a class="gnb-11" href="14_event.html">EVENT</a></li>
+			</ul>
+		</nav>
+		<div class="snb-acc">
+			<div class="col-xs-6">
+				<a href="06_login.html">LOGIN</a>
+			</div>
+			<div class="col-xs-6">
+				<a href="07_join.html">SIGN UP</a>
+			</div>
+			<div class="col-xs-12">
+				<a class="bg-primary" href="15_making.html"><i class="icon-movie"></i> 作る方法を学ぶ</a>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- mobile menu -->
+
+<div id="wrap">
+	<!-- Header -->
+	<header id="hd" class="visible-md-block visible-lg-block">
+		<div class="hd-top">
+			<div class="container">
+				<a href="14_event.html">EVENT</a> <i class="split"></i>
+				<a href="15_making.html">作る方法を学ぶ</a> <i class="split"></i>
+				<div class="dropdown">
+					<a href="javascript:;" data-toggle="dropdown">MY PAGE</a> <i class="split"></i>
+					<div class="dropdown-menu my-drop">
+						<div class="user-info">
+							<div class="name">Hyoung Ju Kim</div>
+							<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+						</div>
+						<ul class="row my-link">
+							<li class="col-xs-6"><a href="04_cart_2.html">장바구니</a></li>
+							<li class="col-xs-6"><a href="05_my_4.html">쿠폰등록</a></li>
+							<li class="col-xs-6"><a href="05_my_6.html">취소 및 환불</a></li>
+							<li class="col-xs-6"><a href="05_my_2.html">회원정보 수정</a></li>
+							<li class="col-xs-6"><a href="">상품후기</a></li>
+							<li class="col-xs-6"><a href="">상품문의</a></li>
+							<li class="col-xs-6"><a href="09_oneone.html">일대일문의</a></li>
+							<li class="col-xs-6"><a href="">로그아웃</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="06_login.html">LOGIN</a> <i class="split"></i>
+				<a href="07_join.html">SIGN UP</a>
+				<div class="dropdown link-cart-wrp">
+					<a class="link-cart" href="javascript:;" data-toggle="dropdown"><span class="sr-only">Cart</span><b class="label">3</b></a>
+					<div class="dropdown-menu my-drop cart-drop">
+						<ul>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<p>* 최근 담은 순으로 5개까지 보여집니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header container">
+			<h1 class="logo"><a href="index.html"><span class="sr-only">momentto</span><img src="img/logo.png" alt=""> 驚くほど簡<span class="color-primary">単かつ迅速オ</span>ンラインムービーメーカー</a></h1>
+			<nav id="gnb">
+				<ul>
+					<li><a class="icon-gnb1" href="02_list.html">OPENING</a></li>
+					<li><a class="icon-gnb2" href="02_list_2.html">PROFILE</a></li>
+					<li><a class="icon-gnb3" href="02_list_3.html">END ROLL</a></li>
+					<li><a class="icon-gnb4" href="02_list_4.html">LETTER</a></li>
+					<li><a class="icon-gnb5" href="02_list_5.html">PROPOSE</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- 모바일 -->
+	<header id="mHd" class="visible-sm-block visible-xs-block">
+		<h1><a href=""><span class="sr-only">momentto</span><img class="img-responsive" src="img/logo_m.png" alt=""></a></h1>
+		<a href="#snb" class="icon-mn" onclick="menuOpen('snb');return false;">메뉴열기/닫기</a>
+	</header>
+	<!-- //Header -->
+
+	<!-- Container -->
+	<div id="container">
+
+<!-- 페이지시작 -->
+
+<!-- 상세 -->
+<div class="view">
+	<div id="viewSlider">
+		<div class="container">
+			<!-- 빵조각메뉴 -->
+			<ul class="breadcrumb">
+				<li><a href="">home</a></li>
+				<li><a href="">mypage</a></li>
+				<li><a href="">my movie</a></li>
+			</ul>
+			<div id="viewSliderView" aria-live="polite">
+				<ul>
+					<li><a class="on" href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+					<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-xs-12">
+					<div id="viewSliderPn" class="slide-sm">
+						<ul>
+							<li><a class="on" href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+							<li><a href="#"><img src="img/_temp/video.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-5 col-xs-12">
+					<a class="btn btn-lg btn-block bg-primary text-left" href="">無料お試し <b class="ml20">FREE TO MAKE</b> <span class="pull-right">&gt;</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="view-hd row">
+			<header class="col-sm-6 col-xs-12">
+				<span class="cate color-primary">OPENIG MOVIE</span>
+				<h1>LOVE LOVE LOVE</h1>
+			</header>
+			<div class="col-sm-6 col-xs-12 price">
+				<strong>9,900円</strong>
+				<small>(税別)</small>
+				<div class="pull-right">
+					<a class="btn btn-border-pink">ご注文</a>
+					<a class="icon-cart" href="">cart</a>
+				</div>
+			</div>
+		</div>
+		<section class="view-info row">
+			<div class="col-sm-2 col-xs-12"><h3>INFO</h3></div>
+			<div class="col-sm-10">
+				まるで一編の映画のようなお二人の思い出フィルム<br>
+				全ての縁が「今日」につながっているように感じられるプロフィールビデオ
+			</div>
+		</section>
+		<section class="view-info row">
+			<div class="col-sm-2 col-xs-12"><h3>FEATURES</h3></div>
+			<div class="col-sm-10">
+				<ul class="view-features row">
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view"></i>
+						<h4>사진</h4>
+						<strong>50장</strong>
+					</li>
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view-2"></i>
+						<h4>사용기간</h4>
+						<strong>30일</strong>
+					</li>
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view-3"></i>
+						<h4>미리보기</h4>
+						<strong>무한대</strong>
+					</li>
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view-4"></i>
+						<h4>문장변경</h4>
+						<strong>가능</strong>
+					</li>
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view-5"></i>
+						<h4>음악변경</h4>
+						<strong>가능</strong>
+					</li>
+					<li class="col-sm-4 col-xs-6">
+						<i class="icon-view-6"></i>
+						<h4>완성 후 수정</h4>
+						<strong>가능</strong>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<nav class="tab">
+			<ul>
+				<li class="active"><a href="#viewTab" data-toggle="tab">商品説明</a></li>
+				<li><a href="#viewTab2" data-toggle="tab">口コミ</a></li>
+				<li><a href="#viewTab3" data-toggle="tab">お問い合せ</a></li>
+			</ul>
+		</nav>
+		<div class="tab-content">
+			<!-- 상품설명 -->
+			<div id="viewTab" class="tab-pane active">
+				<div class="row">
+					<div class="col-sm-8 col-xs-12 view-sect-wrp">
+						<section class="view-sect">
+							<h3>기본정보</h3>
+							<div>
+								  <p>1.価格  - 9,900 円(税別) </p>
+								  <br>
+								  <p>2.使用期間  - 30日 / 期間以内にムービーを制作してください。<br>
+									<br>
+									3.ムービーの仕上がり時間 – 「完成」ボタンをクリックすると、約10~20分以内に仕上がります。ムービー
+									が仕上がる際に、お客様のEメールにてご案内させていただきます。仕上がったムービーは、マイページ
+									にて観覧およびダウンロードが出来ます。</p>
+								  <br>
+								  <p>4.修正-  仕上がりが完了されたムービーは、マイページにて修正出来ます。<br>
+									（※ムービー完了直後から5日以内、一回に限ります。）</p>
+								  <br>
+								  <p>5.上映時間 – 4分 20秒 </p>
+								  <br>
+								  <p>6.納品形式 – mp4形式のデータファイル <br>
+									(すべての上映機器・TV・PC,・スマートフォン等で視聴可能です。） <strong class="color-primary">FAQ-DVD作成</strong></p>
+								  <br>
+								  <p>7.映像画質– 1280 HD (16:9)  <strong class="color-primary">FAQ - 16:9 ー＞ 4:3サイズに変更</strong></p>
+								  <br>
+								  <p>8.必要な画像の枚数　74枚 (※jpg形式のファイルをご使用いただけます。)<br>
+									- 新郎様 20枚  (横向き画像 10枚 +　縦向き画像10枚)<br>
+									- 新婦様 20枚 (横向き画像 10枚 +　縦向き画像10枚)<br>
+									- お二人 10枚 (横向き画像 5枚 +　縦向き画像5枚)<br>
+									- ウェディング写真 20枚 (横向き画像 10枚 +　縦向き画像10枚)<br>
+								   <strong class="color-primary"> FAQ-縦向き画像を横向きする</strong> <br>
+									  <br>
+									9.BGM–  サンプルBGM - better together – Sabrina<br>
+									※ 弊社でご提供している著作物は、全て制作者の許可の元で使用されているものでございます。　<br>
+									<strong class="color-primary">音楽ライセンスダウンロード</strong><br>
+									  <br>
+									10.TIP– 音楽変更の際は、こちらの曲をお勧めいたします。ムービーメーカーにて、<br>
+									音楽を変更していただけます。</p>
+								  <p>11.コメント– 文章の変更可能<br>
+									<strong class="color-blk">（※ただし、フォント・大きさ・位置・色等の変更機能は備えておりません。）</strong><br>
+							  </p>
+							</div>
+						</section>
+						<section class="view-sect">
+							<h3>주의사항</h3>
+							<div>
+								<ul class="lst-bullet-dash">
+									<li>적용 가능한 파일 사진: JPG / 음악 : MP3 이외의 포멧은 사용이 어려우니 주의해 주세요</li>
+									<li>사진 수가 부족하면 이미 불러온(사용한) 사진을 다시 불러와 사용해도 괜찮습니다</li>
+									<li>사진 선택 시에 배경 보다는 인물 위주의 사진을 선택하시기를 추천해 드립니다.<br>
+									<a class="color-sky" href=""><u>FAQ 세로사진 활용하기</u></a></li>
+									<li>무비메이커의 폰트 변경 및 폰트의 색, 위치, 크기는 바꿀 수 없습니다.</li>
+									<li>모멘또 무비메이커의 사용환경은 크롬에 최적화 되어 있으니, <br class="hidden-xs">
+									 크롬설치 후 모멘또 홈페이지를 방문해서 무비메이커를 실행해 주세요. <a class="color-sky" href=""><u>크롬설치하기</u></a></li>
+									<li>보안으로 인터넷 방어벽이 설치 되어 있는 기업 및 관공서는 무비메이커가 실행 되지 않습니다.<br class="hidden-xs">
+									 불편하더라도 개인 노트북, PC 및 자택 PC를 이용해서 영상을 만들어 주세요</li>
+									<li>무비메이커 사용기간은 실행 후 30일간이며 사용 기간 내에 영상 신청하기를 클릭하시고 및 수정작업도 끝내야 합니다.</li>
+									<li>완성 된 영상은 마이페이지에 평생 보관됩니다. 또한  다운로드 된 영상은 무제한 사용가능하며 다운로드 횟수에 제한 없이 무제한 다운로드 가능합니다.</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<section class="view-faq">
+							<h3><a><i class="icon-view2"></i>영화의 BGM에 관한 안내</a></h3>
+							<div>
+								모멘또의 무비메이커에서 제공하는 영상의 BGM을 
+		사용하기를추천하고 있습니다. 하지만 사용자가 
+		아티스트의 음악을 BGM으로 하기를  원하시면 모멘또 
+		무비메이커  음악변경에서 무음을 선택하셔서 상영되는 
+		장소의 음향담당자와 협의 및 문의하시기 바랍니다.
+		<br><br>
+		모멘또 무비메이커에서 음악변경을 하는 경우에는
+		모멘또 라이선스 정책에 동의하는 것으로 판단합니다.
+								<a class="view-faq-btn" href="">bgm에 대해서 알아보기 <i class="glyphicon glyphicon-menu-right"></i></a>
+							</div>
+						</section>
+						<section class="view-faq">
+							<h3><a><i class="icon-view2-2"></i>DVD作成について</a></h3>
+							<div>
+								―ムービーは、仕上がった直後MP4ファイルでダウン ロード可能です。DVD制作サービスは提供しておりません。DVD作成が必要なお客様は、DVD焼き方 をご参考ください。
+								<a class="view-faq-btn" href="">DVD焼き方 をご参考ください。 <i class="glyphicon glyphicon-menu-right"></i></a>
+							</div>
+						</section>
+						<section class="view-faq">
+							<h3><a><i class="icon-view2-3"></i>注文・制作について</a></h3>
+							<div>
+								- お客様のお好きな写真、文章、音楽をガイドによって
+		ご記入いただくだけで、お手軽にムービーを作成で
+		きます。
+		 <br><br>
+		- MOMENTTOの全ての商品は、ご注文手続きの後か
+		ら制作が可能です。 (ご注文の前に、「無料のお試し」が
+		ございますので、ご確認お願いします！）
+		<br><br>
+		- ご注文の手続きが済みましたら、マイページにてム
+		ービーメーカーを起動してください。 利用期間は、起動
+		直後から15日間です。
+		<br><br>
+		- サンプル動画と同様のデザイン・レイアウト・効果等が
+		適用されます。上映時間、文章・画像の流れの速度、
+		文章の大きさ・位置の変更はできません。
+
+							</div>
+						</section>
+						<section class="view-faq">
+							<h3><a><i class="icon-view2-4"></i>キャンセル・払い戻しについて</a></h3>
+							<div>
+								- データ販売という特性上、クレジットカードの承認が
+		降りた時点でキャンセルまたは払い戻しははお受け
+		できなくなります。ご了承願います。 
+		<br><br>
+		- ただし、不可避な状況により、作業が出来なくなった
+		場合（ご自身のPC環境のみに起因する問題は除く）
+		は、この限りではございません。
+		<br><br>
+		- 詳しくは、「お問い合わせ」にてご連絡ください。
+
+							</div>
+						</section>
+						<section class="view-faq">
+							<h3><a><i class="icon-view2-5"></i>PC環境</a></h3>
+							<div>
+								MOMENTTO ムービーメーカーは最低仕様のPCでも
+		十分活用できるように設計されていますが、より早くて
+		スムーズな機能を提供するため、以下のような仕様を
+		お勧めしております。 
+		<br>
+								<a class="color-sky" href=""><u>最低仕様/お勧め仕様</u></a>
+								<p>お勧めプレーヤー : <strong>DAUMPOT PLAYER</strong> </p>
+								<a class="color-sky" href="" target="_blank"><u>インストール</u></a>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!-- 댓글 -->
+			<div id="viewTab2" class="tab-pane">
+				<div class="cmt-wrp">
+					<!-- 댓글입력 -->
+					<form>
+						<h2 class="cmt-tit">리뷰 <strong class="color-primary">5</strong></h2>
+						<div class="row cmt-frm">
+							<div class="col-sm-10 col-xs-12">
+								<div class="col-sm-6 col-xs-12 pr5 pr0-xs">
+									<input class="form-control input-lg" placeholder="name">
+								</div>
+								<div class="col-sm-6 col-xs-12 pl5 pl0-xs">
+									<input type="email" class="form-control input-lg" placeholder="e-mail">
+								</div>
+								<div class="col-xs-12">
+									<textarea class="form-control input-lg mt10 mt0-xs" rows="4" placeholder="comment"></textarea>
+								</div>
+							</div>
+							<div class="col-sm-2 col-xs-12 pl10 pl0-xs">
+								<button type="submit" class="btn btn-md btn-block bg-mint">Comment</button>
+							</div>
+						</div>
+					</form>
+					<!-- 댓글목록 -->
+					<ul class="cmt-lst">
+						<li class="media">
+							<div class="media-left">
+								<img class="img-circle img-profile" src="img/_temp/profile.png" alt="">
+							</div>
+							<div class="media-body">
+								<div class="meta">5h ago</div>
+								<h4>Hyodum Ju</h4>
+								<div class="cnt">
+									너무 이쁘고 노래도 좋고 문구도 좋고 저는 변경없이 그냥 사진만 넣었는데도 완성도가 좋아요 ㅎ<br>
+									진짜 이런 가격에 손쉽게 고퀄리티 만들수 있다니 놀랍네요 감사합니다!
+								</div>
+							</div>
+						</li>
+						<li class="media">
+							<div class="media-left">
+								<img class="img-circle img-profile" src="img/_temp/profile.png" alt="">
+							</div>
+							<div class="media-body">
+								<div class="meta">5h ago</div>
+								<h4>Hyodum Ju</h4>
+								<div class="cnt">
+									너무 이쁘고 노래도 좋고 문구도 좋고 저는 변경없이 그냥 사진만 넣었는데도 완성도가 좋아요 ㅎ<br>
+									진짜 이런 가격에 손쉽게 고퀄리티 만들수 있다니 놀랍네요 감사합니다!
+								</div>
+							</div>
+						</li>
+						<li class="media">
+							<div class="media-left">
+								<img class="img-circle img-profile" src="img/_temp/profile.png" alt="">
+							</div>
+							<div class="media-body">
+								<div class="meta">5h ago</div>
+								<h4>Hyodum Ju</h4>
+								<div class="cnt">
+									너무 이쁘고 노래도 좋고 문구도 좋고 저는 변경없이 그냥 사진만 넣었는데도 완성도가 좋아요 ㅎ<br>
+									진짜 이런 가격에 손쉽게 고퀄리티 만들수 있다니 놀랍네요 감사합니다!
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 질문 -->
+			<div id="viewTab3" class="tab-pane">
+				<form>
+					<div class="row view-qna">
+						<div class="col-xs-12">
+							<h3>お問い合せ</h3>
+							<div class="alert alert-bg">
+								<ol>
+									<li>1. 商品・制作につきまして、過去のご質問例が画像付でまとめられています。こちらの<strong class="color-blk">FAQ</strong>もご活用ください。</li>
+									<li>2. 「編集中に生じたエラーや疑問に関して」のお問い合わせの場合、文面だけでは状況の正確な把握が難しくなります。<br>
+									お手数ですが、問題の生じている状態が視覚的に分かる「画像」か「動画」を、スマートフォン等で撮影し、お送りください。</li>
+								</ol>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 pr10 pr0-xs">
+							<h4 class="color-primary">連絡可能なメールアドレス</h4>
+							<input type="text" class="form-control input-lg">
+							<p class="form-control-static">お問い合わせの際にご入力いただいたメールアドレスをお忘れないようお願いいたします。</p>
+						</div>
+						<div class="col-sm-6 col-xs-12 pl10 pl0-xs">
+							<h4 class="color-primary">添付ファイル</h4>
+							<button type="button" class="btn btn-md btn-block btn-border-pink"><i class="glyphicon glyphicon-paperclip"></i> ファイル追加・</button>
+							<p class="form-control-static">&nbsp;</p>
+						</div>
+						<div class="col-sm-6 col-xs-12 pr10 pr0-xs">
+							<h4 class="color-primary">ご質問の内容</h4>
+							<input type="text" class="form-control input-lg">
+							<p class="form-control-static">-購入前の疑問事項 <br>
+							-ムービーメーカー使用中に生じるエラー・疑問<br>
+							-仕上がったムービーについて<br>
+							- その他
+							</p>
+						</div>
+						<div class="col-sm-6 col-xs-12 pl10 pl0-xs">
+							<h4 class="color-primary">お問い合わせ内容</h4>
+							<textarea class="form-control input-lg" rows="5"></textarea>
+						</div>
+						<div class="col-xs-12 text-center">
+							<button type="submit" class="btn btn-md bg-mint w220">送信</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	slider = $('#viewSliderView>ul').bxSlider({
+		pager:false,
+		controls:false,
+		infiniteLoop:false
+	});
+	$('#viewSliderPn>ul').bxSlider({
+		pager:false,
+		slideWidth:110,
+		minSlides:5,
+		maxSlides:5,
+		slideMargin:4,
+		moveSlides:1,
+		infiniteLoop:false
+	});
+	$('#viewSliderPn li>a').click(function(){
+		$(this).addClass('on').parent().siblings().children().removeClass('on');
+		slider.goToSlide($(this).parent().index());
+		return false;
+	});
+	$('.view-faq>h3>a').click(function(){
+		if($(window).width()>768) return;
+		$(this).parent().toggleClass('open').next().toggle();
+		return false;
+	});
+
+</script>
+
+<!-- //페이지끝 -->
+
+	</div><!-- //Container -->
+
+	<!-- Footer -->
+	<footer id="ft">
+		<div class="container row">
+			<div class="col-xs-12 col-sm-3">
+				<a href=""><img src="img/ft_logo.png" alt="bellsoft"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul class="row">
+					<li class="col-xs-4">
+						<h3>HELP</h3>
+						<ul>
+							<li><a href="11_cooperate.html">CONTACT US</a></li>
+							<li><a href="15_making.html">HOW IT WORKS</a></li>
+							<li><a href="12_agreement_2.html">FAQS</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>COMPANY</h3>
+						<ul>
+							<li><a href="13_introduce.html">ABOUT</a></li>
+							<li><a href="12_agreement.html">CONTACT US</a></li>
+							<li><a href="">OUR POLICIES</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>FOLLOW US</h3>
+						<a class="icon-ft-sns-kakao" href="" target="_blank">kakao</a>
+						<a class="icon-ft-sns-fb" href="" target="_blank">facebook</a>
+						<a class="icon-ft-sns-insta" href="" target="_blank">instagram</a>
+					</li>
+				</ul>
+				<address>Copyright &copy; momentto All right reserved.</address>
+			</div>
+		</div>
+		<a class="icon-top" href="#wrap" onClick="scrollMove('#wrap');return false;">TOP</a>
+	</footer>
+	<!-- //Footer -->
+
+	<!-- Qucik -->
+	<div id="quick" class="hidden-xs hidden-sm">
+		<a class="icon-quick" href="">FAQ</a>
+		<a class="icon-quick-1" href="09_oneone_2.html">1:1</a>
+	</div>
+	<!-- Qucik -->
+
+</div><!-- //Wrap -->
+
+<!-- js -->
+<!--[if lte IE 9]>
+<script src="js/placeholder.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+</body>
+</html>

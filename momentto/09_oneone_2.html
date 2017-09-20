@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>momentto</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+
+<body class="page-mypage"><a href="#ct" class="skip sr-only sr-only-focusable" onclick="jQuery('#ct a:first').focus();return false;">Skip to Content</a>
+
+<!-- mobile menu -->
+<div id="snb" class="side-nav">
+	<section>
+		<nav id="mGnb">
+			<h3>ACCOUNT</h3>
+			<ul>
+				<li><a class="gnb-1" href="index.html">HOME</a></li>
+				<li><a class="gnb-2" href="05_my_2.html">MY PAGE</a></li>
+				<li><a class="gnb-3" href="04_cart_2.html">CART <b class="label">3</b></a></li>
+			</ul>
+			<h3>CATEGORY</h3>
+			<ul>
+				<li><a class="gnb-4" href="">OPENING</a></li>
+				<li><a class="gnb-5" href="">PROFILE</a></li>
+				<li><a class="gnb-6" href="">END ROLL</a></li>
+				<li><a class="gnb-7" href="">LETTER</a></li>
+				<li><a class="gnb-8" href="">PROPOSE</a></li>
+			</ul>
+		</nav>
+		<div class="snb-acc">
+			<div class="col-xs-6">
+				<a href="06_login.html">LOGIN</a>
+			</div>
+			<div class="col-xs-6">
+				<a href="07_join.html">SIGN UP</a>
+			</div>
+			<div class="col-xs-12">
+				<a class="bg-primary" href=""><i class="icon-movie"></i> 作る方法を学ぶ</a>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- mobile menu -->
+
+<div id="wrap">
+	<!-- Header -->
+	<header id="hd" class="visible-md-block visible-lg-block">
+		<div class="hd-top">
+			<div class="container">
+				<a href="14_event.html">EVENT</a> <i class="split"></i>
+				<a href="15_making.html">作る方法を学ぶ</a> <i class="split"></i>
+				<div class="dropdown">
+					<a href="javascript:;" data-toggle="dropdown">MY PAGE</a> <i class="split"></i>
+					<div class="dropdown-menu my-drop">
+						<div class="user-info">
+							<div class="name">Hyoung Ju Kim</div>
+							<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+						</div>
+						<ul class="row my-link">
+							<li class="col-xs-6"><a href="04_cart_2.html">장바구니</a></li>
+							<li class="col-xs-6"><a href="05_my_4.html">쿠폰등록</a></li>
+							<li class="col-xs-6"><a href="05_my_6.html">취소 및 환불</a></li>
+							<li class="col-xs-6"><a href="05_my_2.html">회원정보 수정</a></li>
+							<li class="col-xs-6"><a href="">상품후기</a></li>
+							<li class="col-xs-6"><a href="">상품문의</a></li>
+							<li class="col-xs-6"><a href="09_oneone.html">일대일문의</a></li>
+							<li class="col-xs-6"><a href="">로그아웃</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="06_login.html">LOGIN</a> <i class="split"></i>
+				<a href="07_join.html">SIGN UP</a>
+				<div class="dropdown link-cart-wrp">
+					<a class="link-cart" href="javascript:;" data-toggle="dropdown"><span class="sr-only">Cart</span><b class="label">3</b></a>
+					<div class="dropdown-menu my-drop cart-drop">
+						<ul>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<p>* 최근 담은 순으로 5개까지 보여집니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header container">
+			<h1 class="logo"><a href="index.html"><span class="sr-only">momentto</span><img src="img/logo.png" alt=""> 驚くほど簡<span class="color-primary">単かつ迅速オ</span>ンラインムービーメーカー</a></h1>
+			<nav id="gnb">
+				<ul>
+					<li><a class="icon-gnb1" href="02_list.html">OPENING</a></li>
+					<li><a class="icon-gnb2" href="02_list_2.html">PROFILE</a></li>
+					<li><a class="icon-gnb3" href="02_list_3.html">END ROLL</a></li>
+					<li><a class="icon-gnb4" href="02_list_4.html">LETTER</a></li>
+					<li><a class="icon-gnb5" href="02_list_5.html">PROPOSE</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- 모바일 -->
+	<header id="mHd" class="visible-sm-block visible-xs-block">
+		<h1><a href="index.html"><span class="sr-only">momentto</span><img class="img-responsive" src="img/logo_m.png" alt=""></a></h1>
+		<a href="#snb" class="icon-mn" onclick="menuOpen('snb');return false;">메뉴열기/닫기</a>
+	</header>
+	<!-- //Header -->
+
+	<!-- Container -->
+	<div id="container">
+
+<!-- 페이지시작 -->
+<div class="container ct">
+	<header>
+		<h2 class="sub-title t2">1:1 상담</h2>
+		<p>제품 및 제작에 대해서 자주하는 질문을 <br class="visible-xs-block">이미지 첨부와 함께 정리하고 있습니다. <br>
+		여기 <strong class="color-primary">FAQ</strong>을 활용하시기 바랍니다.</p>
+	</header>
+	<form>
+		<section class="pane">
+			<h5 class="tit">구분</h5>
+			<div class="pane-body">
+				<div class="form-group">
+					<div class="control-label">제작관련 문의</div>
+					<div class="inline-radio clearfix">
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">수정문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">사진 업로드
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">화질문제
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">미리보기
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">영상다운로드
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">DVD제작
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">배경음악
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason">라이선스관련
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="control-label">일반상담 문의</div>
+					<div class="inline-radio clearfix">
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">주문/입금문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">취소문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">환불문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">상품변경문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">회원서비스
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">쿠폰/적립금 문의
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason2">이벤트 문의
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="control-label">기타</div>
+					<div class="inline-radio clearfix">
+						<div class="radio">
+							<label>
+								<input type="radio" name="reason3">기타 문의
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pane">
+			<h5 class="tit">구분</h5>
+			<div class="pane-body">
+				<div class="row">
+					<div class="form-group col-sm-6 col-xs-12 pr10 pr0-xs">
+						<div class="control-label">주문자</div>
+						<input type="text" class="form-control input-lg" value="HyoungJuKim" readonly>
+					</div>
+					<div class="form-group col-sm-6 col-xs-12 pl10 pl0-xs">
+						<div class="control-label">아이디</div>
+						<input type="text" class="form-control input-lg" value="HyoungJuKim" readonly>
+					</div>
+					<div class="form-group col-xs-12">
+						<div class="control-label">제목</div>
+						<input type="text" class="form-control input-lg">
+					</div>
+					<div class="form-group col-xs-12">
+						<div class="control-label">내용</div>
+						<textarea class="form-control input-lg" rows="8"></textarea>
+					</div>
+					<div class="form-group col-sm-6 col-xs-12 pr10 pr0-xs">
+						<div class="control-label">이메일</div>
+						<input type="email" class="form-control input-lg">
+					</div>
+					<div class="form-group col-sm-6 col-xs-12 pl10 pl0-xs">
+						<div class="control-label clearfix">사진첨부 <small class="pull-right">파일 크기는 3MB 이하, JPG, PGN 또는 GIF 형식의 파일만 가능합니다.</small></div>
+						<div class="input-group">
+							<input type="text" class="form-control input-lg" value="선택한 파일 없음" readonly>
+							<span class="input-group-btn">
+								<button class="btn btn-md bg-mint" type="button">파일 선택</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="bx-grn mt30 mt15-xs">
+			<h4 class="mb10 fs16 fs12-xs color-blk">*신청 전 참고사항*</h4>
+			<p class="mb10 fs11-xs">“무비메이커 편집&amp;제작 과정에서 발생하는 문제나 질문에 대해” 문의하는 경우 문장만으로는 상황이 정확하게 파악하기 힘듭니다.<br>
+				문제가 발생하는 상태를 시각적으로 알 수 있는 이미지, 동영상 등의 형태로 보내 주시기 바랍니다. <br>
+				즉, 문제가 발생하는 컴퓨터 화면 등을 휴대폰으로 촬영하거나 PC화면을 캡쳐 해서 첨부 파일로 보내 주시기 바랍니다. </p>
+			<a class="color-blue"><u>캡쳐해서 보내는 방법</u></a>
+		</div>
+		<div class="frm-buttons">
+			<button type="button" class="btn btn-md bg-primary" style="width: auto">신청</button>
+			<button type="button" class="btn btn-md btn-default" style="width: auto">취소</button>
+		</div>
+	</form>
+</div>
+
+<!-- //페이지끝 -->
+
+	</div><!-- //Container -->
+
+	<!-- Footer -->
+	<footer id="ft">
+		<div class="container row">
+			<div class="col-xs-12 col-sm-3">
+				<a href=""><img src="img/ft_logo.png" alt="bellsoft"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul class="row">
+					<li class="col-xs-4">
+						<h3>HELP</h3>
+						<ul>
+							<li><a href="11_cooperate.html">CONTACT US</a></li>
+							<li><a href="15_making.html">HOW IT WORKS</a></li>
+							<li><a href="12_agreement_2.html">FAQS</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>COMPANY</h3>
+						<ul>
+							<li><a href="13_introduce.html">ABOUT</a></li>
+							<li><a href="12_agreement.html">CONTACT US</a></li>
+							<li><a href="">OUR POLICIES</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>FOLLOW US</h3>
+						<a class="icon-ft-sns-kakao" href="" target="_blank">kakao</a>
+						<a class="icon-ft-sns-fb" href="" target="_blank">facebook</a>
+						<a class="icon-ft-sns-insta" href="" target="_blank">instagram</a>
+					</li>
+				</ul>
+				<address>Copyright &copy; momentto All right reserved.</address>
+			</div>
+		</div>
+		<a class="icon-top" href="#wrap" onClick="scrollMove('#wrap');return false;">TOP</a>
+	</footer>
+	<!-- //Footer -->
+
+	<!-- Qucik -->
+	<div id="quick" class="hidden-xs hidden-sm">
+		<a class="icon-quick" href="">FAQ</a>
+		<a class="icon-quick-1" href="09_oneone_2.html">1:1</a>
+	</div>
+	<!-- Qucik -->
+
+</div><!-- //Wrap -->
+
+<!-- js -->
+<!--[if lte IE 9]>
+<script src="js/placeholder.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+</body>
+</html>

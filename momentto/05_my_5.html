@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>momentto</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+
+<!-- [D] 타이틀페이지 class="page-" -->
+<body class="page-mypage"><a href="#ct" class="skip sr-only sr-only-focusable" onclick="jQuery('#ct a:first').focus();return false;">Skip to Content</a>
+
+<!-- mobile menu -->
+<div id="snb" class="side-nav">
+	<section>
+		<nav id="mGnb">
+			<h3>ACCOUNT</h3>
+			<ul>
+				<li><a class="gnb-1" href="index.html">HOME</a></li>
+				<li><a class="gnb-2" href="05_my_2.html">MY PAGE</a></li>
+				<li><a class="gnb-3" href="04_cart_2.html">CART <b class="label">3</b></a></li>
+			</ul>
+			<h3>CATEGORY</h3>
+			<ul>
+				<li><a class="gnb-4" href="02_list.html">OPENING</a></li>
+				<li><a class="gnb-5" href="02_list_2.html">PROFILE</a></li>
+				<li><a class="gnb-6" href="02_list_3.html">END ROLL</a></li>
+				<li><a class="gnb-7" href="02_list_4.html">LETTER</a></li>
+				<li><a class="gnb-8" href="02_list_5.html">PROPOSE</a></li>
+			</ul>
+			<h3 class="mb0" ></h3>
+			<ul>
+				<li><a class="gnb-9" href="12_agreement_2.html">FAQ</a></li>
+				<li><a class="gnb-10" href="09_oneone_2.html">1:1</a></li>
+				<li><a class="gnb-11" href="14_event.html">EVENT</a></li>
+			</ul>
+		</nav>
+		<div class="snb-acc">
+			<div class="col-xs-6">
+				<a href="06_login.html">LOGIN</a>
+			</div>
+			<div class="col-xs-6">
+				<a href="07_join.html">SIGN UP</a>
+			</div>
+			<div class="col-xs-12">
+				<a class="bg-primary" href="15_making.html"><i class="icon-movie"></i> 作る方法を学ぶ</a>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- mobile menu -->
+
+<div id="wrap">
+	<!-- Header -->
+	<header id="hd" class="visible-md-block visible-lg-block">
+		<div class="hd-top">
+			<div class="container">
+				<a href="14_event.html">EVENT</a> <i class="split"></i>
+				<a href="15_making.html">作る方法を学ぶ</a> <i class="split"></i>
+				<div class="dropdown">
+					<a href="javascript:;" data-toggle="dropdown">MY PAGE</a> <i class="split"></i>
+					<div class="dropdown-menu my-drop">
+						<div class="user-info">
+							<div class="name">Hyoung Ju Kim</div>
+							<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+						</div>
+						<ul class="row my-link">
+							<li class="col-xs-6"><a href="04_cart_2.html">장바구니</a></li>
+							<li class="col-xs-6"><a href="05_my_4.html">쿠폰등록</a></li>
+							<li class="col-xs-6"><a href="05_my_6.html">취소 및 환불</a></li>
+							<li class="col-xs-6"><a href="05_my_2.html">회원정보 수정</a></li>
+							<li class="col-xs-6"><a href="">상품후기</a></li>
+							<li class="col-xs-6"><a href="">상품문의</a></li>
+							<li class="col-xs-6"><a href="09_oneone.html">일대일문의</a></li>
+							<li class="col-xs-6"><a href="">로그아웃</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="06_login.html">LOGIN</a> <i class="split"></i>
+				<a href="07_join.html">SIGN UP</a>
+				<div class="dropdown link-cart-wrp">
+					<a class="link-cart" href="javascript:;" data-toggle="dropdown"><span class="sr-only">Cart</span><b class="label">3</b></a>
+					<div class="dropdown-menu my-drop cart-drop">
+						<ul>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="clse" href="#">&times;<span class="sr-only">close</span></a>
+								<a class="media" href="">
+									<div class="media-left">
+										<img src="img/_temp/tmb.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>LOVE LOVE LOVE</h4>
+										<span class="color-primary">profile</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<p>* 최근 담은 순으로 5개까지 보여집니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header container">
+			<h1 class="logo"><a href="index.html"><span class="sr-only">momentto</span><img src="img/logo.png" alt=""> 驚くほど簡<span class="color-primary">単かつ迅速オ</span>ンラインムービーメーカー</a></h1>
+			<nav id="gnb">
+				<ul>
+					<li><a class="icon-gnb1" href="02_list.html">OPENING</a></li>
+					<li><a class="icon-gnb2" href="02_list_2.html">PROFILE</a></li>
+					<li><a class="icon-gnb3" href="02_list_3.html">END ROLL</a></li>
+					<li><a class="icon-gnb4" href="02_list_4.html">LETTER</a></li>
+					<li><a class="icon-gnb5" href="02_list_5.html">PROPOSE</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- 모바일 -->
+	<header id="mHd" class="visible-sm-block visible-xs-block">
+		<h1>my page</h1>
+		<a href="#snb" class="icon-mn" onclick="menuOpen('snb');return false;">메뉴열기/닫기</a>
+	</header>
+	<!-- //Header -->
+
+	<!-- Container -->
+	<div id="container">
+
+<!-- 페이지시작 -->
+<div class="container">
+	<ul class="breadcrumb">
+		<li><a href="">home</a></li>
+		<li><a href="">mypage</a></li>
+		<li><a href="">coupon</a></li>
+	</ul>
+	<div class="row mypage">
+		<div class="side">
+			<h2 class="sub-title t2">my page</h2>
+			<div class="user-info">
+				<div class="tmb"><img src="img/_temp/tmb.jpg" alt=""></div>
+				<div class="name">Hyoung Ju Kim</div>
+				<span>쿠폰 3장</span><i class="split"></i><span>적립금 9700円</span>
+			</div>
+			<ul class="mnb">
+				<li><a href="">my movie</a></li>
+				<li><a href="">쿠폰조회/등록</a></li>
+				<li class="active"><a href="">나의 적립금</a></li>
+				<li><a href="">취소/환불</a></li>
+				<li>
+					<a href="">회원정보</a>
+					<ul class="dep2">
+						<li><a href="">개인정보 수정</a></li>
+						<li><a href="">회원 탈퇴</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="cont">
+			<h3 class="cont-title">나의 적립금</h3>
+			<div class="saved-money">
+				<div class="row">
+					<div class="col-xs-6">
+						<span class="color-pink">받은 적립금</span>
+						<span class="num">3,653,000</span>
+					</div>
+					<div class="col-xs-6">
+						<span class="color-pink">사용 적립금</span>
+						<span class="num">- 287,000</span>
+					</div>
+				</div>
+			</div>
+			<div class="filter clearfix">
+				<div class="pull-left clearfix">
+					<div class="sort row">
+						<span class="col-xs-4 active"><a href="" class="btn">1개월</a></span>
+						<span class="col-xs-4"><a href="" class="btn">3개월</a></span>
+						<span class="col-xs-4"><a href="" class="btn">6개월</a></span>
+					</div>
+					<div class="date">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="2017.06.05">
+							<span class="input-group-addon">~</span>
+							<input type="text" class="form-control" placeholder="2017.06.05">
+							<div class="input-group-btn"><button type="button" class="btn btn-default">조회</button></div>
+						</div>
+					</div>
+				</div>
+				<div class="pull-right">
+					<select class="form-control" title="카테고리선택">
+						<option value="">전체</option>
+					</select>
+				</div>
+			</div>
+			<div class="table-responsive">
+				<table class="tb tb-saved">
+					<caption class="sr-only">적립금내역</caption>
+					<colgroup>
+						<col style="width:130px">
+						<col>
+						<col style="width:180px" span="2">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">날짜</th>
+							<th scope="col">내역</th>
+							<th scope="col">받은 적립금</th>
+							<th scope="col">사용 적립금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2017. 05. 17</td>
+							<td><span class="color-blk">상품 구매</span></td>
+							<td class="get"></td>
+							<td class="use">-23,000</td>
+						</tr>
+						<tr>
+							<td>2017. 05. 17</td>
+							<td><span class="color-blk">상품 구매</span></td>
+							<td class="get">23,000</td>
+							<td class="use"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- 페이징 -->
+			<nav class="text-center">
+				<ul class="pagination">
+					<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<!-- //페이지끝 -->
+
+	</div><!-- //Container -->
+
+	<!-- Footer -->
+	<footer id="ft">
+		<div class="container row">
+			<div class="col-xs-12 col-sm-3">
+				<a href=""><img src="img/ft_logo.png" alt="bellsoft"></a>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul class="row">
+					<li class="col-xs-4">
+						<h3>HELP</h3>
+						<ul>
+							<li><a href="11_cooperate.html">CONTACT US</a></li>
+							<li><a href="15_making.html">HOW IT WORKS</a></li>
+							<li><a href="12_agreement_2.html">FAQS</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>COMPANY</h3>
+						<ul>
+							<li><a href="13_introduce.html">ABOUT</a></li>
+							<li><a href="12_agreement.html">CONTACT US</a></li>
+							<li><a href="">OUR POLICIES</a></li>
+						</ul>
+					</li>
+					<li class="col-xs-4">
+						<h3>FOLLOW US</h3>
+						<a class="icon-ft-sns-kakao" href="" target="_blank">kakao</a>
+						<a class="icon-ft-sns-fb" href="" target="_blank">facebook</a>
+						<a class="icon-ft-sns-insta" href="" target="_blank">instagram</a>
+					</li>
+				</ul>
+				<address>Copyright &copy; momentto All right reserved.</address>
+			</div>
+		</div>
+		<a class="icon-top" href="#wrap" onClick="scrollMove('#wrap');return false;">TOP</a>
+	</footer>
+	<!-- //Footer -->
+
+	<!-- Qucik -->
+	<div id="quick" class="hidden-xs hidden-sm">
+		<a class="icon-quick" href="">FAQ</a>
+		<a class="icon-quick-1" href="09_oneone_2.html">1:1</a>
+	</div>
+	<!-- Qucik -->
+
+</div><!-- //Wrap -->
+
+<!-- js -->
+<!--[if lte IE 9]>
+<script src="js/placeholder.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+</body>
+</html>
